@@ -1,0 +1,5 @@
+{
+  "name": "Viet-Eng Travel Talk",
+  "description": "A simple Vietnamese to English translator for seniors traveling abroad. Features large text, common travel phrases, and voice playback.",
+  "requestFramePermissions": ["microphone"]
+}

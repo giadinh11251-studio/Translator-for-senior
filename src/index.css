@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer components {
+  .senior-btn {
+    @apply flex items-center justify-center gap-3 px-8 py-6 rounded-2xl font-bold text-2xl transition-all active:scale-95 shadow-lg;
+  }
+  
+  .senior-card {
+    @apply bg-white p-6 rounded-3xl shadow-md border border-slate-100;
+  }
+  
+  .senior-input {
+    @apply w-full p-6 text-2xl rounded-2xl border-2 border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all placeholder:text-slate-400;
+  }
+}
